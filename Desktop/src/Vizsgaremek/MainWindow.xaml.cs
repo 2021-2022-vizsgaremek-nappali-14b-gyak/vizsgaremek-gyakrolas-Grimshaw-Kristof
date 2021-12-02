@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Vizsgaremek.Navigation;
+using Vizsgaremek.Pages;
 
 namespace Vizsgaremek
 {
@@ -23,6 +25,10 @@ namespace Vizsgaremek
         public MainWindow()
         {
             InitializeComponent();
+            Navigate.mainWindow = this;
+            WelcomePage welcomePage = new WelcomePage();
+            //Megjelenítsük a welcomepaget
+            Navigate.Navigation(welcomePage);
         }
     }
 }
