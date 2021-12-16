@@ -15,4 +15,5 @@ azért, hogy <okok, előnyök>
 
 Elfogadási feltételek
 Feltéve hogy <kiinduló állapot>
-és <cselekvés>
+és <cselekvés> 
+akkor <elvárt eredmény>
