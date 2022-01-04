@@ -1,2 +1,2 @@
-# gycsaba-vasvari
+# Grimshaw-Kristof
 Vizsgaremek
