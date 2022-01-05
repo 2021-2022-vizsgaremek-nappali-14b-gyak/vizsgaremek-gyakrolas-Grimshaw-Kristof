@@ -42,7 +42,21 @@ namespace Vizsgaremek.Models
                 return title;
             }
         }
+        public string Description
+        {
+            get
+            {
+                return description;
+            }
+        }
 
+        public string Company
+        {
+            get
+            {
+                return company;
+            }
+        }
 
 
         public ProgramInfo()
