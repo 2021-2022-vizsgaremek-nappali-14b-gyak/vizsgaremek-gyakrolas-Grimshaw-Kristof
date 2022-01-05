@@ -63,6 +63,19 @@ namespace Vizsgaremek.ViewModels
 
         }
 
+        public string Authors
+        {
+            get
+            {
+                return programInfo.Authors;
+            }
+            set
+            {
+                Authors = value;
+            }
+
+        }
+
         public ProgramVersionViewModel()
         {
             programInfo = new ProgramInfo();
