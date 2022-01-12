@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Vizsgaremek.Views.Navigation;
 using Vizsgaremek.Views.Pages;
+using Vizsgaremek.Views.Pages;
 
 namespace Vizsgaremek.Views.Pages
 {
@@ -22,6 +23,8 @@ namespace Vizsgaremek.Views.Pages
     /// </summary>
     public partial class DatabaseSourcePage : UserControl
     {
+        DatabaseSourceViewModel databaseSourceViewModel;
+
         public DatabaseSourcePage()
         {
             InitializeComponent();
