@@ -7,11 +7,12 @@
 	  <SelfContained>false</SelfContained>
 	  <RuntimeIdentifier>win-x64</RuntimeIdentifier>
 	  <UseWPF>true</UseWPF>
-	  <Version>0.0.3.0</Version>
-	  <Authors>Gyuris Csaba</Authors>
+	  <Version>0.0.4.0</Version>
+	  <Authors>Grimshaw Kristóf</Authors>
 	  <Company>Vasvári</Company>
 	  <Product />
 	  <Description>Program verzió navigáció működik</Description>
+	  <AssemblyVersion>0.0.4.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -30,6 +31,10 @@
     <Folder Include="Validations\" />
     <Folder Include="Resources\" />
     <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Octokit" Version="0.50.0" />
   </ItemGroup>
 
   <ItemGroup>

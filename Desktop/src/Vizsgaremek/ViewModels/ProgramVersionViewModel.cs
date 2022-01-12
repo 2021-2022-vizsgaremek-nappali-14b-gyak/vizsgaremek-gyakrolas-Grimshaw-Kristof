@@ -24,6 +24,57 @@ namespace Vizsgaremek.ViewModels
                 Version = value;
             }
         }
+        public string Title
+        {
+            get
+            {
+                return programInfo.Title;
+            }
+            set
+            {
+                Title = value;
+            }
+
+        }
+
+        public string Description
+        {
+            get
+            {
+                return programInfo.Description;
+            }
+            set
+            {
+                Description = value;
+            }
+
+        }
+
+        public string Company
+        {
+            get
+            {
+                return programInfo.Company;
+            }
+            set
+            {
+                Company = value;
+            }
+
+        }
+
+        public string Authors
+        {
+            get
+            {
+                return programInfo.Authors;
+            }
+            set
+            {
+                Authors = value;
+            }
+
+        }
 
         public ProgramVersionViewModel()
         {
