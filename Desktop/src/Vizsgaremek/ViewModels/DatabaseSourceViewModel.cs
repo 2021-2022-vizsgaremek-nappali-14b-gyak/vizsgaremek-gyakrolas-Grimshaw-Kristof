@@ -8,11 +8,12 @@ using Vizsgaremek.Repositories;
 
 namespace Vizsgaremek.ViewModels
 {
-    class DatabaseSourceViewModel
+    public class DatabaseSourceViewModel
     {
         ObservableCollection<string> displayDatabaseSources;
         private string selectedDatabaseSource;
         DatabaseSources repoDatabaseSources;
+        private DbSource dbSource;
 
         public DatabaseSourceViewModel() 
         {
@@ -28,6 +29,15 @@ namespace Vizsgaremek.ViewModels
         { 
             get => selectedDatabaseSource; 
             set => selectedDatabaseSource = value; 
+        }
+
+        public DbSource DbSource
+        {
+            get 
+            {
+                //TDD fejlesztés 
+                return DbSource.NONE;
+            }
         }
     }
 }
